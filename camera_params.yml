@@ -1,0 +1,36 @@
+%YAML:1.0
+---
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 869.116824543144, 0., 480., 0., 869.116824543144, 360., 0., 0., 1. ]
+distort_coeffs: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 0., 0., 0., 0., 0. ]
+
+armor_width: 13.5
+armor_height: 5.5
+
+image1_armor_id: 1
+image1_tvec: !!opencv-matrix
+   rows: 1
+   cols: 3
+   dt: d
+   data: [ -17.4340, 16.9600, 379.4632 ]
+
+image2_armor_id: 2
+image2_tvec: !!opencv-matrix
+   rows: 1
+   cols: 3
+   dt: d
+   data: [ 28.5747, 7.0019, 138.4573 ]
+
+image3_armor_id: 1
+image3_tvec: !!opencv-matrix
+   rows: 1
+   cols: 3
+   dt: d
+   data: [ -17.9673, 5.3321, 174.6903 ]
